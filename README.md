@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## What's a Webapp
 
-A webapp is a self-contained web application which can be deployed to the Revel Digital CMS for use in your digital signage. Webapps are a great option for kiosk applications or for adding more sophisticated dynamic elemnents to your signage.
+A webapp is a self-contained web application which can be deployed to the Revel Digital CMS for use in your digital signage. Webapps are a great option for kiosk applications or for adding more sophisticated dynamic elements to your signage.
 
 By utilizing the [Player Client SDK](https://reveldigital.github.io/reveldigital-client-sdk/), Webapps are able to interface with the underlying player software in real-time providing the ability to perform tasks such as event logging, sending commands, and retrieving player specific information.
 
