@@ -1,27 +1,22 @@
-# NgTestClientSdk
+# Example Angular Webapp for Revel Digital
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
-## Development server
+## What's a Webapp
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A webapp is a self-contained web application which can be deployed to the Revel Digital CMS for use in your digital signage. Webapps are a great option for kiosk applications or for adding more sophisticated dynamic elemnents to your signage.
 
-## Code scaffolding
+By utilizing the [Player Client SDK](https://reveldigital.github.io/reveldigital-client-sdk/), Webapps are able to interface with the underlying player software in real-time providing the ability to perform tasks such as event logging, sending commands, and retrieving player specific information.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+![alt text](image.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Easy deployment with Github Workflows
 
-## Running unit tests
+This example app utilizes Github Workflows to simply the process of building, packaging, and uploading to the Revel Digital CMS. All that's required is an API key from your Revel Digital account and the workflow will handle the deployment for you.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[More information on our Github workflow action here](https://github.com/marketplace/actions/revel-digital-webapp-deploy-action)
 
-## Running end-to-end tests
+## Non-Workflow Deployment
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+If Workflows are not suitable, you can always deploy your Webapps manually. Simply build your app, then zip the build folder **_(root of the folder must containe the index.html file)_**, and rename the zipfile to have a .webapp extension. Then upload the file as you would any other media item to your Revel Digital account.
