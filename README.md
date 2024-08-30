@@ -19,4 +19,4 @@ This example app utilizes Github Workflows to simply the process of building, pa
 
 ## Non-Workflow Deployment
 
-If Workflows are not suitable, you can always deploy your Webapps manually. Simply build your app, then zip the build folder **_(root of the folder must containe the index.html file)_**, and rename the zipfile to have a .webapp extension. Then upload the file as you would any other media item to your Revel Digital account.
+If Workflows are not suitable, you can always deploy your Webapps manually. Simply build your app, then zip the build folder **_(root of the folder must contain the index.html file)_**, and rename the zipfile to have a .webapp extension. Then upload the file as you would any other media item to your Revel Digital account.
